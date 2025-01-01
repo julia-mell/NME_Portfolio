@@ -1,0 +1,43 @@
+body{
+    background-color:  rgb(77, 105, 77);
+    background-image: url(./HomePageImg/IMG_6546-2.jpg);
+    background-size:cover;
+    font-family: monospace;
+    font-size: large;
+}
+
+header{
+    background-color: beige;
+    color:rgb(47, 68, 47);
+    position: absolute;
+    top: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: beige;
+    position: relative;
+    top: 0px;
+}
+a{  
+    display: inline-block;
+    padding: 27px;
+    color: rgb(47, 68, 47);
+    background-color: beige
+    
+}
+a:hover{
+    background-color:rgb(47, 68, 47) ;
+    color:beige;
+}
+/* .WhatsNew {
+ background-color: beige;
+ opacity: 0%;
+ display: flex;
+ justify-content: center;
+ margin: auto;
+ 
+ width: 400px;
+}
+.WhatsNew:hover{
+    opacity: 100%;
+} */

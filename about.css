@@ -1,0 +1,132 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(72, 105, 72);
+    background-image: url(./HomePageImg/cbg.png);
+    background-size:cover;
+    color: beige;
+    animation: fadeIn 1s;
+    font-family: monospace
+}
+@keyframes fadeIn{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+header{
+    font-size: large;
+    background-color: beige;
+    color:rgb(47, 68, 47);
+    position: absolute;
+    top: 0px;
+    padding: 0px;
+}
+nav{
+    font-size: large;
+    background-color: beige;
+    position: relative;
+    top: 0px;
+    a{  
+        display: inline-block;
+        padding: 27px;
+        color: rgb(47, 68, 47);
+        background-color: beige
+        
+    }
+    a:hover{
+        background-color:rgb(47, 68, 47) ;
+        color:beige;
+    }
+}
+
+a{
+    color: beige;
+}
+a:hover{
+    color:rgb(39, 53, 39) ;
+}
+
+.atext{
+    margin-top: 100px;
+    text-align: center;
+    font-size: large;
+}
+.a1{
+    margin: auto;
+    /* width: 800px; */
+    width:52%;
+    background-color: beige;
+    color: rgb(47, 68, 47);
+    border-radius: 11%;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+.a1text{
+    text-align: center;
+}
+.aa{
+    display: flexbox;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 50px;  
+    font-size: 15px;
+}
+/* img:hover{
+    scale: 0.99;
+} */
+
+.p1text2{
+    margin: auto;
+    width:52%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    background-color: rgb(43, 54, 32);
+    font-size: 15px;
+    border-radius: 11%;
+    color:beige
+}
+
+.p2{
+    margin: auto;
+    width:52%;
+    background-color: beige;
+    color: rgb(47, 68, 47);
+    border-radius: 11%;
+    padding-bottom: 20px;
+}
+.p3{
+    margin: auto;
+    width:52%;
+    background-color: beige;
+    color: rgb(47, 68, 47);
+    border-radius: 11%;
+    padding-bottom: 20px; 
+}
+.p4{
+    margin: auto;
+    width:52%;
+    background-color: beige;
+    color: rgb(47, 68, 47);
+    border-radius: 11%;
+    padding-bottom: 20px; 
+}
+footer{
+    background-color: beige;
+    color: rgb(47, 68, 47);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    position:fixed; bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 1345px ){
+    .onPage{
+        text-align: center;
+        margin: auto;
+        position: static;
+        top: 50px;
+        
+    }
+}

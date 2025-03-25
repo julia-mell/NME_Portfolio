@@ -39,16 +39,12 @@ nav{
         color:beige;
     }
 }
+
 a{
     color: beige;
 }
 a:hover{
     color:rgb(39, 53, 39) ;
-}
-.ptext{
-    margin-top: 100px;
-    text-align: center;
-    font-size: large;
 }
 .onPage{
     font-size: large;
@@ -70,35 +66,40 @@ a:hover{
 .Pnav3{
     margin-top: 15px;
     margin-left: 10px;
+}
+.Pnav4{
+    margin-top: 15px;
+    margin-left: 10px;
     margin-bottom: 25px;
 }
-.c1{
+.ptext{
+    margin-top: 100px;
+    text-align: center;
+    font-size: large;
+}
+.p1{
     margin: auto;
+    /* width: 800px; */
     width:52%;
     background-color: beige;
     color: rgb(47, 68, 47);
     border-radius: 11%;
     padding-bottom: 20px;
-
 }
-.c1text{
+.p1text{
     text-align: center;
-    a{
-        color: rgb(47, 68, 47);
-    }
-    a:hover{
-        color: rgb(136, 192, 136);
-    }
 }
-.c1img{
+.p1img{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center; 
-
+    justify-content: space-evenly
+    
 }
-.c1text2{
+
+.p1text2{
     margin: auto;
     width:52%;
     padding-left: 10px;
@@ -107,15 +108,10 @@ a:hover{
     background-color: rgb(43, 54, 32);
     font-size: 15px;
     border-radius: 11%;
-    color:beige;
-    a{
-        color: beige;
-    }
-    a:hover{
-        color: rgb(136, 192, 136);
-    }
+    color:beige
 }
-.c2{
+
+.p2{
     margin: auto;
     width:52%;
     background-color: beige;
@@ -123,13 +119,21 @@ a:hover{
     border-radius: 11%;
     padding-bottom: 20px;
 }
-.c3{
+.p3{
     margin: auto;
     width:52%;
     background-color: beige;
     color: rgb(47, 68, 47);
     border-radius: 11%;
-    padding-bottom: 20px;
+    padding-bottom: 20px; 
+}
+.p4{
+    margin: auto;
+    width:52%;
+    background-color: beige;
+    color: rgb(47, 68, 47);
+    border-radius: 11%;
+    padding-bottom: 20px; 
 }
 footer{
     background-color: beige;
@@ -138,6 +142,7 @@ footer{
     padding-bottom: 10px;
     text-align: center;
 }
+
 @media (max-width: 1345px ){
     .onPage{
         text-align: center;

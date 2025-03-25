@@ -4,7 +4,8 @@ html{
 body{
     background-color: rgb(72, 105, 72);
     background-image: url(./HomePageImg/cbg.png);
-    background-size:contain;
+    background-size:cover;
+    background-attachment: fixed;
     color: beige;
     animation: fadeIn 1s;
     font-family: monospace
@@ -98,10 +99,12 @@ a:hover{
     }
 }
 .v1img{
-    display: flexbox;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-left: 65px;
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
 
     img:hover{
         opacity: 85% ;
